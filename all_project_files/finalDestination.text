@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../all_internal_files/css/grid.css">
+    <link rel="stylesheet" href="../all_internal_files/css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lozata</title>
+</head>
+<body>
+    <!-- header start -->
+
+    <header class="main_header">
+        <nav class="main_header__nav">
+            <!-- <img src="" alt="" class="logo"> -->
+            <a href="#" class="main_header__brand">
+                Lozata
+            </a>
+            <ul class="main_header__nav__items">
+                <li class="item">
+                    <a href="#">Food Delivery</a>
+                </li>
+                <li class="item">
+                    <a href="#">How It Works</a></li>
+                <li class="item">
+                    <a href="#">Our Cities</a></li>
+                <li class="item">
+                    <a href="#">Sign Up</a></li>
+            </ul>
+        </nav>
+        <section class="main_header__text__box">
+            <p>
+                No Junk Food.<br>
+                Just A Healthy Meals.
+            </p>
+            <div class="btn__container">
+                <a href="#" class="btn full__btn">I'm Hungry</a>
+                <a href="#" class="btn ghost__btn">Show Me More</a>
+            </div>
+        </section>
+    </header>
+
+    <!-- header end -->
+
+    <!-- main start -->
+
+    <main>
+
+        <!-- main--section 1 srart -->
+    
+        <section class="section__1__features">
+            <div class="section__1__features__header">
+                <h2>Get food fast &mdash; not fast food.</h2>
+                <p class="long-copy">
+                    Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!
+                </p>
+            </div>
+            <div class="section__1__features__items">
+                <div class="section__1__features__item">
+                    <ion-icon name="infinite-outline" class="io-icon"></ion-icon>
+                    <h3>Up to 365 days/year</h3>
+                    <p>Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style.</p>
+                </div>
+                <div class="section__1__features__item">
+                    <ion-icon name="alarm-outline" class="io-icon"></ion-icon>
+                    <h3>Ready in 20 minutes</h3>
+                    <p>You're only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you're 100% happy.</p>
+                </div>
+                <div class="section__1__features__item">
+                    <ion-icon name="pizza-outline" class="io-icon"></ion-icon>
+                    <h3>100% organic</h3>
+                    <p>All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the environment, and it also tastes better!</p>
+                </div>
+                <div class="section__1__features__item">
+                    <ion-icon name="cart-outline" class="io-icon"></ion-icon>
+                    <h3>Order anything</h3>
+                    <p>We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!</p>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- main--section 1 end -->
+
+        <!-- main--section 2 srart -->   
+
+        <section class="section__2__meals__images">
+            <ul class="section__2__meals">
+                <li class="meal">
+                    <figure class="meal__photo">
+                        <img src="photos/1.jpg" alt="meal-image">
+                    </figure>
+                </li>
+                <li class="meal">
+                    <figure class="meal__photo">
+                        <img src="photos/2.jpg" alt="meal-image">
+                    </figure>
+                </li>
+                <li class="meal">
+                    <figure class="meal__photo">
+                        <img src="photos/3.jpg" alt="meal-image">
+                    </figure>
+                </li>
+                <li class="meal">
+                    <figure class="meal__photo">
+                        <img src="photos/4.jpg" alt="meal-image">
+                    </figure>
+                </li>
+            </ul>
+            <ul class="section__2__meals">
+                <li class="meal">
+                    <figure class="meal__photo">
+                        <img src="photos/5.jpg" alt="meal-image">
+                    </figure>
+                </li>
+                <li class="meal">
+                    <figure class="meal__photo">
+                        <img src="photos/6.jpg" alt="meal-image">
+                    </figure>
+                </li>
+                <li class="meal">
+                    <figure class="meal__photo">
+                        <img src="photos/7.jpg" alt="meal-image">
+                    </figure>
+                </li>
+                <li class="meal">
+                    <figure class="meal__photo">
+                        <img src="photos/8.jpg" alt="meal-image">
+                    </figure>
+                </li>
+            </ul>
+        </section>
+
+        <div class="clearfex"></div>
+    
+        <!-- main--section 2 end -->      
+        
+        <!-- main--section 3 srart -->   
+
+        <section class="section__3__how_it_works">
+            <h2 class="section__3__header">HOW IT WORKS — SIMPLE AS 1, 2, 3</h2>
+            <div class="steps-container">
+                <div class="column_1_of_2">
+                    <img src="photos/app-iPhone.png" alt="" srcset="">
+                </div>
+                <div class="column_2_of_2">
+                    <div class="work_step">
+                        <div>1</div>
+                        <p>Choose the subscription plan that best fits your needs and sign up today.</p>
+                    </div>
+                    <div class="work_step">
+                        <div>2</div>
+                        <p>Order your delicious meal using our mobile app or website. Or you can even call us!</p>
+                    </div>
+                    <div class="work_step">
+                        <div>3</div>
+                        <p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- main--section 3 end -->  
+
+        <!-- main--section 4 start -->
+
+        <section class="cities__container">
+            <div class="header">
+                <h>We're currently in these cities</h>
+            </div>
+            <div class="cities">
+                <div class="city">
+                    <div class="citiy__photo">
+                        <img src="photos/london.jpg" alt="London branch" srcset="">
+                    </div>
+                    <div class="city__description">
+                        <h3>London</h3>
+                        <ul>
+                            <li>
+                                <div class="logo">
+                                    <ion-icon name="person-outline"></ion-icon>
+                                </div>
+                                <div class="description">
+                                    1600+ happy eaters
+                                </div>
+                            </li>
+                            <li>
+                                <div class="logo">
+                                    <ion-icon name="star-outline"></ion-icon>
+                                </div>
+                                <div class="description">
+                                    60+ top cheifs
+                                </div>
+                            </li>
+                            <li>
+                                <div class="logo">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                </div>
+                                <div class="description">
+                                    <a href="#">@lozata.io</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="city">
+                    <div class="citiy__photo">
+                        <img src="photos/berlin.jpg" alt="Berlin branch" srcset="">
+                    </div>
+                    <div class="city__description">
+                        <h3>Berlin</h3>
+                        <ul>
+                            <li>
+                                <div class="logo">
+                                    <ion-icon name="person-outline"></ion-icon>
+                                </div>
+                                <div class="description">
+                                    1200+ happy eaters
+                                </div>
+                            </li>
+                            <li>
+                                <div class="logo">
+                                    <ion-icon name="star-outline"></ion-icon>
+                                </div>
+                                <div class="description">
+                                    40+ top cheifs
+                                </div>
+                            </li>
+                            <li>
+                                <div class="logo">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                </div>
+                                <div class="description">
+                                    <a href="#">@lozata.io</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="city">
+                    <div class="citiy__photo">
+                        <img src="photos/lisbon-3.jpg" alt="lisbon branch" srcset="">
+                    </div>
+                    <div class="city__description">
+                        <h3>lisbon</h3>
+                        <ul>
+                            <li>
+                                <div class="logo">
+                                    <ion-icon name="person-outline"></ion-icon>
+                                </div>
+                                <div class="description">
+                                    1900+ happy eaters
+                                </div>
+                            </li>
+                            <li>
+                                <div class="logo">
+                                    <ion-icon name="star-outline"></ion-icon>
+                                </div>
+                                <div class="description">
+                                    80+ top cheifs
+                                </div>
+                            </li>
+                            <li>
+                                <div class="logo">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                </div>
+                                <div class="description">
+                                    <a href="#">@lozata.io</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="city">
+                    <div class="citiy__photo">
+                        <img src="photos/san-francisco.jpg" alt="san-francisco branch" srcset="">
+                    </div>
+                    <div class="city__description">
+                        <h3>san francisco</h3>
+                        <ul>
+                            <li>
+                                <div class="logo">
+                                    <ion-icon name="person-outline"></ion-icon>
+                                </div>
+                                <div class="description">
+                                    2200+ happy eaters
+                                </div>
+                            </li>
+                            <li>
+                                <div class="logo">
+                                    <ion-icon name="star-outline"></ion-icon>
+                                </div>
+                                <div class="description">
+                                    110+ top cheifs
+                                </div>
+                            </li>
+                            <li>
+                                <div class="logo">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                </div>
+                                <div class="description">
+                                    <a href="#">@lozata.io</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- main--section 4 end -->
+
+    </main>
+    
+    <!-- main end -->
+    
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+
+</body>
+</html>/* all external files start */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+/* all external files end */
+
+/* global style start */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+/* global style end */
+
+/* styling header start */
+
+.main_header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('photos/background-image_2jpg.jpg');
+    background-size: cover;
+    background-position: center;
+    height:  100vh;
+}
+
+.main_header__nav {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_header__brand {
+    color: white;
+    padding: 2rem 2rem 2rem 0;
+    margin: 0;
+    font-size: 2.2rem;
+    text-decoration: none;
+}
+
+.main_header__nav__items {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main_header__nav__items:last-child {
+    color: #cdb30c;
+}
+
+.main_header__nav__items .item {
+    padding: 1.8rem;
+}
+
+.main_header__nav__items .item a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 2px solid #948108 transparent;
+    text-transform: uppercase;
+    word-spacing: 0.5rem;
+}
+
+.main_header__nav__items .item a:hover {
+    border-bottom: 2px solid #948108;
+}
+
+.main_header__text__box {
+    width: 1140px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main_header__text__box p {
+    font-size: 3rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.2rem;
+    line-height: 4rem;
+}
+
+.btn__container {
+    margin-top: 2rem;
+}
+
+.btn:link,
+.btn:visited {
+    text-decoration: none;
+    background: #948108;
+    padding: 0.6rem 1.4rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    border-radius: 6rem;
+}
+
+.full__btn:link,
+.full__btn:visited {
+    color: white;
+    margin-right: 1.5rem;
+}
+
+.full__btn:hover {
+    background: #b9a209;
+    transition: background 0.3s;
+}
+
+.ghost__btn:link,
+.ghost__btn:visited {
+    color: #948108;
+    background: none;
+    border: 1px solid #948108;
+}
+
+.ghost__btn:hover {
+    background: #948108;
+    transition: background 0.2s;
+    color: white;
+}
+
+/* styling header end */
+
+/* styling main start */
+
+.section__1__features,
+.section__3__how_it_works {
+    width: 1140px;
+    margin: 4rem auto;
+}
+
+.section__1__features__header h2,
+.section__3__header,
+.cities__container .header {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.section__1__features__header h2:after,
+.section__3__header:after,
+.cities__container .header:after {
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: #948108;
+    content: " ";
+    margin: 3rem auto;
+}
+
+.long-copy {
+    text-align: center;
+    width: 75%;
+    margin: 0 auto 2.5rem;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+.section__1__features__items {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.section__1__features__item {
+    padding: 1.3rem;
+}
+
+.section__1__features__item .io-icon {
+    color: #948108;
+    font-size: 3.7rem;
+    font-weight: 100;
+    margin-bottom: 1.3rem;
+}
+
+.section__1__features__item h3 {
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 1.3rem;
+}
+
+.section__1__features__item > p {
+    line-height: 1.4rem;
+}
+
+.section__2__meals {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.meal {
+    width: 25%;
+    display: block;
+    float: left;
+}
+
+.meal__photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background: #000;
+}
+
+.meal__photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+}
+
+.meal__photo img:hover {
+    opacity: 1;
+    transform: scale(1);
+    transition: transform 0.5s ease-out;
+}
+
+.clearfex {
+    clear: both;
+}
+
+.steps-container {
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.column_1_of_2 {
+    width: 50%;
+    text-align: right;
+    padding-right: 4rem;
+}
+
+.column_1_of_2 img {
+    width: 200px;
+    height: 400px;
+}
+
+.column_2_of_2 {
+    width: 50%;
+}
+
+.column_2_of_2 .work_step {
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column_2_of_2 .work_step > div {
+    margin-right: 1.3rem;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #948108;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #948108;
+    font-size: 1.5rem;
+}
+
+.column_2_of_2 .work_step p {
+    width: 85%;
+    line-height: 1.5rem;
+}
+
+.cities__container {
+    width: 1140px;
+    margin: 5rem auto 0;
+}
+
+.cities__container .header {
+    letter-spacing: 0.1rem;
+}
+
+.cities {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: wrap row;
+    width: 100%;
+    overflow: hidden;
+}
+
+.cities .city {
+    width: 23%;
+}
+
+.cities .city .citiy__photo {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+.cities .city .citiy__photo img {
+    width: 100%;
+    border-radius: 0.2rem;
+}
+
+
+.cities .city .city__description h3 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.cities .city .city__description ul {
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.cities .city .city__description ul li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0.3em;
+}
+
+.cities .city .city__description ul li .logo {
+    margin-right: 0.6em;
+    font-size: 1.2rem;
+    color: #b9a209;
+}
+
+.cities .city .city__description ul li .description > a {
+    color: #b9a209;
+    text-decoration: none;
+    border-bottom: 2px solid #b9a209;
+    transition: border-bottom 1s, color 0.5s;
+}
+
+
+/* styling main end */
